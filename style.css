@@ -98,4 +98,21 @@ input[type="submit"] {
     color: #fff;
     font-size: 16px;
     font-weight: bold;
+    cursor: pointer;
+}
+
+.infobox {
+    background-color: #fff;
+    height: 60px;
+    border: 1px solid rgba(236, 234, 234);
+    margin: 10px auto 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.infobox p a {
+    font-weight: bold;
+    user-select: none;
 }
